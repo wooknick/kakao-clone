@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header__top">
       <div class="header__column">
         <i class="fas fa-fighter-jet"></i>
@@ -20,7 +21,7 @@
       <div class="header__column">
         <i class="far fa-moon"></i>
         <i class="fab fa-bluetooth-b"></i>
-        <span class="header__battery">66* <i class="fas fa-battery-full"></i> </span>
+        <span class="header__battery">66% <i class="fas fa-battery-full"></i> </span>
       </div>
     </div>
     <div class="header__bottom">
@@ -35,20 +36,20 @@
       </div>
     </div>
   </header>
-  <main class="freinds">
+  <main class="friends">
     <div class="search-bar">
       <i class="fas fa-search"></i>
       <input type="text" placeholder="Find friends, chats, Plus Freinds">
     </div>
-    <section class="friends__section-header">
-      <header>
+    <section class="friends__section">
+      <header class="friends__section-header">
         <h6 class="friends__section-title">My Profile</h6>
       </header>
       <div class="friends__section-rows">
         <div class="friends__section-row">
-          <a href="profile.html">
-            <img src="images/avatar.jpg" alt="">
-            <span class="friends__section-name">Nicolas</span>
+          <img src="images/avatar.jpg" alt="">
+          <a href="profile.html" class="friends__section-name">
+            Nicolas
           </a>
         </div>
         <div class="friends__section-row">
@@ -57,15 +58,15 @@
         </div>
       </div>
     </section>
-    <section class="friend__section">
+    <section class="friends__section">
       <header class="friends__section-header">
         <h6 class="freinds__section-title">Friends</h6>
       </header>
       <div class="friends__section-rows">
-        <div class="friends__section-row">
+        <div class="friends__section-row with-tagline">
           <div class="friends__section-column">
             <img src="images/avatar.jpg" alt="">
-            <span class="friends__section-name">LYNN</span>
+            <span class="friends__section-name">Lynn</span>
           </div>
           <span class="friends__section-tagline">
             Life is short. So live your life.
