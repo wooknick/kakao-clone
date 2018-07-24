@@ -51,10 +51,11 @@
 }
 
 .chat__message-body {
-  padding: 10px 5px;
+  padding: 5px 5px;
   border-radius: 5px;
   background-color: #ffffff;
   margin-right: 5px;
+  line-height: 25px;
 }
 
 .chat__message-to-me img {
